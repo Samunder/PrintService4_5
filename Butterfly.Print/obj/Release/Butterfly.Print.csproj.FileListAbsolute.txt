@@ -1,0 +1,15 @@
+C:\Development\ButterflyPrint.Service\ButterflyPrint.Service45\Butterfly.Print\bin\Release\Butterfly.Print.dll
+C:\Development\ButterflyPrint.Service\ButterflyPrint.Service45\Butterfly.Print\bin\Release\Butterfly.Print.pdb
+C:\Development\ButterflyPrint.Service\ButterflyPrint.Service45\Butterfly.Print\bin\Release\C1.C1Pdf.4.dll
+C:\Development\ButterflyPrint.Service\ButterflyPrint.Service45\Butterfly.Print\bin\Release\Newtonsoft.Json.dll
+C:\Development\ButterflyPrint.Service\ButterflyPrint.Service45\Butterfly.Print\bin\Release\Spire.Barcode.dll
+C:\Development\ButterflyPrint.Service\ButterflyPrint.Service45\Butterfly.Print\bin\Release\Spire.License.dll
+C:\Development\ButterflyPrint.Service\ButterflyPrint.Service45\Butterfly.Print\bin\Release\C1.C1Pdf.4.xml
+C:\Development\ButterflyPrint.Service\ButterflyPrint.Service45\Butterfly.Print\bin\Release\Newtonsoft.Json.xml
+C:\Development\ButterflyPrint.Service\ButterflyPrint.Service45\Butterfly.Print\bin\Release\Spire.Barcode.xml
+C:\Development\ButterflyPrint.Service\ButterflyPrint.Service45\Butterfly.Print\bin\Release\Spire.License.xml
+C:\Development\ButterflyPrint.Service\ButterflyPrint.Service45\Butterfly.Print\obj\Release\Butterfly.Print.csproj.AssemblyReference.cache
+C:\Development\ButterflyPrint.Service\ButterflyPrint.Service45\Butterfly.Print\obj\Release\Butterfly.Print.csproj.CoreCompileInputs.cache
+C:\Development\ButterflyPrint.Service\ButterflyPrint.Service45\Butterfly.Print\obj\Release\Butterfly.Print.csproj.CopyComplete
+C:\Development\ButterflyPrint.Service\ButterflyPrint.Service45\Butterfly.Print\obj\Release\Butterfly.Print.dll
+C:\Development\ButterflyPrint.Service\ButterflyPrint.Service45\Butterfly.Print\obj\Release\Butterfly.Print.pdb

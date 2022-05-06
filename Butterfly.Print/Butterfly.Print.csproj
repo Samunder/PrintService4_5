@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5DB92BBE-F2AB-4CB6-BF87-3B667651494C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Butterfly.Print</RootNamespace>
+    <AssemblyName>Butterfly.Print</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.C1Pdf.4, Version=4.1.20142.269, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <HintPath>..\packages\C1.C1Pdf.4.1.20142.269\lib\C1.C1Pdf.4.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Barcode, Version=6.3.1.0, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Barcode.6.3.1\lib\net40\Spire.Barcode.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.License, Version=1.4.0.40, Culture=neutral, PublicKeyToken=b1144360237c8b3f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Barcode.6.3.1\lib\net40\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DisposeHelper.cs" />
+    <Compile Include="DocFormObjects\DocFormBarCode.cs" />
+    <Compile Include="DocFormObjects\DocFormBlock.cs" />
+    <Compile Include="DocFormObjects\DocFormDynamicTargetItem.cs" />
+    <Compile Include="DocFormObjects\DocFormEllipse.cs" />
+    <Compile Include="DocFormObjects\DocFormFont.cs" />
+    <Compile Include="DocFormObjects\DocFormImage.cs" />
+    <Compile Include="DocFormObjects\DocFormLayout.cs" />
+    <Compile Include="DocFormObjects\DocFormLine.cs" />
+    <Compile Include="DocFormObjects\DocFormPage.cs" />
+    <Compile Include="DocFormObjects\DocFormPageObject.cs" />
+    <Compile Include="DocFormObjects\DocFormPagePair.cs" />
+    <Compile Include="DocFormObjects\DocFormRectangle.cs" />
+    <Compile Include="DocFormObjects\DocFormText.cs" />
+    <Compile Include="DocumentBuilder.cs" />
+    <Compile Include="Enumerations\DocumentRenderType.cs" />
+    <Compile Include="Enumerations\Enumerations.cs" />
+    <Compile Include="HardCodedDataMappings.cs" />
+    <Compile Include="HeightInfo.cs" />
+    <Compile Include="ImageCache.cs" />
+    <Compile Include="Interfaces\ILogService.cs" />
+    <Compile Include="LayoutCache.cs" />
+    <Compile Include="LogService\LogService.cs" />
+    <Compile Include="Objects\DataMapping.cs" />
+    <Compile Include="Objects\DataMappingBlock.cs" />
+    <Compile Include="Objects\DataMappingItem.cs" />
+    <Compile Include="Objects\Document.cs" />
+    <Compile Include="Objects\DocumentDetail.cs" />
+    <Compile Include="Objects\Image.cs" />
+    <Compile Include="Objects\Layout.cs" />
+    <Compile Include="PageObjects\Page.cs" />
+    <Compile Include="PageObjects\PageObject.cs" />
+    <Compile Include="PageObjects\PageObjectBarCode.cs" />
+    <Compile Include="PageObjects\PageObjectEllipse.cs" />
+    <Compile Include="PageObjects\PageObjectImage.cs" />
+    <Compile Include="PageObjects\PageObjectLine.cs" />
+    <Compile Include="PageObjects\PageObjectRectangle.cs" />
+    <Compile Include="PageObjects\PageObjectText.cs" />
+    <Compile Include="PDFCreator.cs" />
+    <Compile Include="PrintEngine.cs" />
+    <Compile Include="PrintJobObjects\PrintJobDataItem.cs" />
+    <Compile Include="PrintJobObjects\PrintJobDocument.cs" />
+    <Compile Include="PrintJobObjects\PrintJobLayout.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

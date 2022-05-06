@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButterflyPrint.Service45", "ButterflyPrint.Service45\ButterflyPrint.Service45.csproj", "{1B4E63A8-2B57-4C10-962F-9D488BA89924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Butterfly.Print", "Butterfly.Print\Butterfly.Print.csproj", "{5DB92BBE-F2AB-4CB6-BF87-3B667651494C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Test|Any CPU = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B4E63A8-2B57-4C10-962F-9D488BA89924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4E63A8-2B57-4C10-962F-9D488BA89924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4E63A8-2B57-4C10-962F-9D488BA89924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4E63A8-2B57-4C10-962F-9D488BA89924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4E63A8-2B57-4C10-962F-9D488BA89924}.Test|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4E63A8-2B57-4C10-962F-9D488BA89924}.Test|Any CPU.Build.0 = Debug|Any CPU
+		{5DB92BBE-F2AB-4CB6-BF87-3B667651494C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB92BBE-F2AB-4CB6-BF87-3B667651494C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB92BBE-F2AB-4CB6-BF87-3B667651494C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB92BBE-F2AB-4CB6-BF87-3B667651494C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB92BBE-F2AB-4CB6-BF87-3B667651494C}.Test|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB92BBE-F2AB-4CB6-BF87-3B667651494C}.Test|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBD6D030-9636-4B2E-BED4-4C6596BBBFED}
+	EndGlobalSection
+EndGlobal
